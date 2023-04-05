@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Api of delivery.",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/jonnathas/delivery#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "mysql": "^2.18.1"
   }
 }
